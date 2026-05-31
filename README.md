@@ -8,8 +8,16 @@ Le hice algunas modificaciones al código:
 - Cuando pierdes en un nivel, se reproduce un fragmento del Game Over Super Mario.
 IMPORTANTE:
 Para correr el código con estas modificaciones y que no salte error al tratar de subirlo al Arduino, hay que descargarse la librería que incluí en la carpeta del código, se llama "pitches", y define la frecuencia de las notas musicales para el buzzer.
+[Esta](Código/pitches.zip)
 
-Le hice algunas modificaciones al circuito:
+## Le hice algunas modificaciones al circuito:
 - Le conecté la batería de 9v al Jack de alimentación del Arduino (7v-12v).
 - Esta conexión entre el jack y la pila, la interrumpí con un interruptor de dos posiciones (listado en el BOM).
 - Como los leds van fuera de la PCB, coloqué terminales de bloque en vez de los LEDs.
+
+## Imagenes
+Carcasa
+![Carcasa](Archivos_3D_SLDPRT(SOLIDWORKS)/Carcasa_Solidworks.png)
+
+Conexión del circuito
+![Carcasa](Detalles_del_circuito/Overall_squematic.png)
